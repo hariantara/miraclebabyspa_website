@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  padding: 0 2rem;
+  min-height: 80vh;
+}
+
+@media (min-width: 40em) {
+  .container {
+    padding: 0 2rem;
+    min-height: 77vh;
+  }
+}
